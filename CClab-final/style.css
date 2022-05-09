@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+#container {
+    display: block;
+    margin-left: 400px;
+    max-width: 450px;
+    height: auto;
+    padding-top: 10px;
+    margin-bottom: 100px;
+  }
+
+#instructions {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #252525;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  background-color: #9cd4e0;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);
+  font-family: Primetime;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 315px;
+}
+
+button:active {
+  color: #4997C2;
+  transform: translateY(-3px);
+}
+
+body{
+    background-image:url('https://cdn.pixabay.com/photo/2020/12/14/19/26/flowers-5831848_1280.jpg');
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6vw;
+  color: black;
+  margin-bottom: 60px;
+}
+
+h1:hover {
+  transform: scale(0.9);
+  color: #252525;
+}
+
+#description {
+  text-align: center;
+  color: #252525;
+  font-style: italic;
+  margin-bottom: 35px;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
